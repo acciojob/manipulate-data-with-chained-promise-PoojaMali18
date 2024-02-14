@@ -1,4 +1,5 @@
-  function processData(inputArray) {
+  function processData(inputArray)
+	  {
       return new Promise((resolve) => {
         setTimeout(() => {
           // Filter out odd numbers
