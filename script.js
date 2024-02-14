@@ -22,6 +22,5 @@
 
     processData([1, 2, 3, 4])
       .then((result) => {
-        // Update the text of the HTML element with the final result
         outputElement.textContent = result.join(', ');
       });
